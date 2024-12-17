@@ -1,0 +1,24 @@
+2024-12-17 15:55:42.628 -05:00 [INF] Now listening on: https://localhost:7155
+2024-12-17 15:55:42.667 -05:00 [INF] Now listening on: http://localhost:5202
+2024-12-17 15:55:42.670 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-17 15:55:42.671 -05:00 [INF] Hosting environment: Development
+2024-12-17 15:55:42.672 -05:00 [INF] Content root path: E:\Code\TravelAgencyAPI\TravelAgencyAPI
+2024-12-17 15:55:43.301 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7155/swagger/index.html - null null
+2024-12-17 15:55:43.610 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7155/swagger/index.html - 200 null text/html;charset=utf-8 315.8078ms
+2024-12-17 15:55:43.615 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7155/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-17 15:55:43.629 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7155/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 13.4857ms
+2024-12-17 15:55:43.635 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7155/_vs/browserLink - null null
+2024-12-17 15:55:43.700 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7155/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.9192ms
+2024-12-17 15:55:44.172 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7155/swagger/v1/swagger.json - null null
+2024-12-17 15:55:44.301 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7155/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.5478ms
+2024-12-17 15:55:50.751 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7155/api/Guest/1 - null null
+2024-12-17 15:55:50.760 -05:00 [INF] Executing endpoint 'TravelAgency.Controllers.GuestController.GetGuestById (TravelAgencyAPI)'
+2024-12-17 15:55:50.786 -05:00 [INF] Route matched with {action = "GetGuestById", controller = "Guest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetGuestById(Int32) on controller TravelAgency.Controllers.GuestController (TravelAgencyAPI).
+2024-12-17 15:55:53.114 -05:00 [INF] Executed DbCommand (103ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [g].[GuestId], [g].[BirthDate], [g].[DocumentNumber], [g].[DocumentType], [g].[Email], [g].[FullName], [g].[Gender], [g].[Phone]
+FROM [Guests] AS [g]
+WHERE [g].[GuestId] = @__p_0
+2024-12-17 15:55:53.185 -05:00 [INF] Executing OkObjectResult, writing value of type 'TravelAgencyAPI.Models.Guest'.
+2024-12-17 15:55:53.202 -05:00 [INF] Executed action TravelAgency.Controllers.GuestController.GetGuestById (TravelAgencyAPI) in 2410.4155ms
+2024-12-17 15:55:53.204 -05:00 [INF] Executed endpoint 'TravelAgency.Controllers.GuestController.GetGuestById (TravelAgencyAPI)'
+2024-12-17 15:55:53.210 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7155/api/Guest/1 - 200 null application/json; charset=utf-8 2459.6243ms

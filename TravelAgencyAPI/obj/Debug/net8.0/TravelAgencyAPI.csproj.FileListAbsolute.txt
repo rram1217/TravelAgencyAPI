@@ -173,8 +173,6 @@ E:\Code\TravelAgencyAPI\TravelAgencyAPI\obj\Debug\net8.0\refint\TravelAgencyAPI.
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\obj\Debug\net8.0\TravelAgencyAPI.pdb
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\obj\Debug\net8.0\TravelAgencyAPI.genruntimeconfig.cache
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\obj\Debug\net8.0\ref\TravelAgencyAPI.dll
-E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Docker.DotNet.dll
-E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -188,3 +186,4 @@ E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Serilog.Settings.Config
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 E:\Code\TravelAgencyAPI\TravelAgencyAPI\bin\Debug\net8.0\Serilog.Sinks.File.dll
+E:\Code\TravelAgencyAPI\TravelAgencyAPI\obj\Debug\net8.0\TravelAgencyAPI.sourcelink.json
