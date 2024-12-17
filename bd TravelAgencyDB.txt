@@ -1,0 +1,144 @@
+USE [master]
+GO
+
+CREATE DATABASE [TravelAgencyDB]
+GO
+
+USE [TravelAgencyDB]
+GO
+
+
+CREATE TABLE [dbo].[Guests](
+	[GuestId] [int] IDENTITY(1,1) NOT NULL,
+	[FullName] [nvarchar](200) NOT NULL,
+	[BirthDate] [date] NOT NULL,
+	[Gender] [nvarchar](10) NOT NULL,
+	[DocumentType] [nvarchar](50) NOT NULL,
+	[DocumentNumber] [nvarchar](50) NOT NULL,
+	[Email] [nvarchar](255) NOT NULL,
+	[Phone] [nvarchar](50) NOT NULL,
+	[CreatedAt] [datetime] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[GuestId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[DocumentNumber] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Hotels](
+	[HotelId] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](100) NOT NULL,
+	[Address] [nvarchar](255) NOT NULL,
+	[City] [nvarchar](100) NOT NULL,
+	[Country] [nvarchar](100) NOT NULL,
+	[Phone] [nvarchar](100) NULL,
+	[Email] [nvarchar](100) NULL,
+	[CreatedAt] [datetime] NOT NULL,
+	[StarRating] [int] NULL,
+	[IsEnabled] [bit] NOT NULL,
+	[UpdatedAt] [datetime] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[HotelId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Reservations](
+	[ReservationId] [int] IDENTITY(1,1) NOT NULL,
+	[RoomId] [int] NOT NULL,
+	[GuestId] [int] NOT NULL,
+	[CheckInDate] [date] NOT NULL,
+	[CheckOutDate] [date] NOT NULL,
+	[TotalPrice] [decimal](10, 2) NOT NULL,
+	[CreatedAt] [datetime] NOT NULL,
+	[CustomerEmail] [nvarchar](100) NOT NULL,
+	[CustomerFullName] [nvarchar](100) NOT NULL,
+	[EmergencyContactName] [nvarchar](100) NOT NULL,
+	[EmergencyContactPhone] [nvarchar](100) NOT NULL,
+	[NumberOfGuests] [int] NOT NULL,
+	[IsConfirmed] [bit] NOT NULL,
+	[CustomerPhone] [nvarchar](15) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ReservationId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+CREATE TABLE [dbo].[Rooms](
+	[RoomId] [int] IDENTITY(1,1) NOT NULL,
+	[Capacity] [int] NOT NULL,
+	[Price] [decimal](10, 2) NOT NULL,
+	[IsEnabled] [bit] NOT NULL,
+	[HotelId] [int] NOT NULL,
+	[CreatedAt] [datetime] NOT NULL,
+	[Description] [nvarchar](100) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[RoomId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+CREATE NONCLUSTERED INDEX [IDX_Hotels_City] ON [dbo].[Hotels]
+(
+	[City] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+/****** Object:  Index [IDX_Reservations_GuestId]    Script Date: 16/12/2024 11:58:43 p. m. ******/
+CREATE NONCLUSTERED INDEX [IDX_Reservations_GuestId] ON [dbo].[Reservations]
+(
+	[GuestId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+/****** Object:  Index [IDX_Reservations_RoomId]    Script Date: 16/12/2024 11:58:43 p. m. ******/
+CREATE NONCLUSTERED INDEX [IDX_Reservations_RoomId] ON [dbo].[Reservations]
+(
+	[RoomId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+/****** Object:  Index [IDX_Rooms_HotelId]    Script Date: 16/12/2024 11:58:43 p. m. ******/
+CREATE NONCLUSTERED INDEX [IDX_Rooms_HotelId] ON [dbo].[Rooms]
+(
+	[HotelId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Guests] ADD  DEFAULT (getdate()) FOR [CreatedAt]
+GO
+ALTER TABLE [dbo].[Hotels] ADD  DEFAULT (getdate()) FOR [CreatedAt]
+GO
+ALTER TABLE [dbo].[Hotels] ADD  DEFAULT ((1)) FOR [IsEnabled]
+GO
+ALTER TABLE [dbo].[Hotels] ADD  DEFAULT (getdate()) FOR [UpdatedAt]
+GO
+ALTER TABLE [dbo].[Reservations] ADD  DEFAULT (getdate()) FOR [CreatedAt]
+GO
+ALTER TABLE [dbo].[Rooms] ADD  DEFAULT ((1)) FOR [IsEnabled]
+GO
+ALTER TABLE [dbo].[Rooms] ADD  DEFAULT (getdate()) FOR [CreatedAt]
+GO
+ALTER TABLE [dbo].[Reservations]  WITH CHECK ADD FOREIGN KEY([GuestId])
+REFERENCES [dbo].[Guests] ([GuestId])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Reservations]  WITH CHECK ADD FOREIGN KEY([RoomId])
+REFERENCES [dbo].[Rooms] ([RoomId])
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[Rooms]  WITH CHECK ADD FOREIGN KEY([HotelId])
+REFERENCES [dbo].[Hotels] ([HotelId])
+ON DELETE CASCADE
+GO
+USE [master]
+GO
+ALTER DATABASE [TravelAgencyDB] SET  READ_WRITE 
+GO

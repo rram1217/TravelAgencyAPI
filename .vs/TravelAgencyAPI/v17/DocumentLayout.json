@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\TravelAgencyAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\services\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\services\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\services\\hotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\services\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\services\\guestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\interfaces\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\interfaces\\ihotelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\interfaces\\iguestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\interfaces\\iguestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\data\\travelagencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\data\\travelagencycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|e:\\code\\travelagencyapi\\travelagencyapi\\travelagencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AD28F9F-BC79-460E-B605-426318EDB2E6}|TravelAgencyAPI\\TravelAgencyAPI.csproj|solutionrelative:travelagencyapi\\travelagencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Models\\Hotel.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Hotel.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Models\\Hotel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T02:21:18.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Models\\Reservation.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Reservation.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Models\\Reservation.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwBEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:07:07.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Models\\Room.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Room.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Models\\Room.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T02:21:55.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GuestService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\GuestService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Services\\GuestService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\GuestService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Services\\GuestService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:35:57.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\HotelService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Services\\HotelService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\HotelService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Services\\HotelService.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAmwCQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:16:08.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Services\\ReservationService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\ReservationService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Services\\ReservationService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:39:10.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Services\\RoomService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\RoomService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Services\\RoomService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwCkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:46:29.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SendEmail.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\SendEmail.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Services\\SendEmail.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Services\\SendEmail.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Services\\SendEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:29:58.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Interfaces\\IReservationService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Interfaces\\IReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:21:10.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Program.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Program.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T02:27:49.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Guest.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Guest.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Models\\Guest.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Models\\Guest.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Models\\Guest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowB8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:15:47.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IRoomService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Interfaces\\IRoomService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IRoomService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Interfaces\\IRoomService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:20:24.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IHotelService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IHotelService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Interfaces\\IHotelService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IHotelService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Interfaces\\IHotelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:17:52.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGuestService.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IGuestService.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Interfaces\\IGuestService.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Interfaces\\IGuestService.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Interfaces\\IGuestService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:21:40.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TravelAgencyContext.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Data\\TravelAgencyContext.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Data\\TravelAgencyContext.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Data\\TravelAgencyContext.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Data\\TravelAgencyContext.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwEkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T02:22:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Controllers\\RoomController.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAcwBUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:45:33.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Controllers\\ReservationController.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:38:43.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Controllers\\HotelsController.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T04:31:52.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Controllers\\GuestController.cs",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "TravelAgencyAPI\\Controllers\\GuestController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:33:49.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TravelAgencyAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T04:37:58.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\appsettings.json",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\appsettings.json",
+              "RelativeToolTip": "TravelAgencyAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-15T02:25:49.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TravelAgencyAPI.csproj",
+              "DocumentMoniker": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\TravelAgencyAPI.csproj",
+              "RelativeDocumentMoniker": "TravelAgencyAPI\\TravelAgencyAPI.csproj",
+              "ToolTip": "E:\\Code\\TravelAgencyAPI\\TravelAgencyAPI\\TravelAgencyAPI.csproj",
+              "RelativeToolTip": "TravelAgencyAPI\\TravelAgencyAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T17:51:10.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
