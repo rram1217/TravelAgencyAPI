@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[build.env]
+DOTNET_SDK_VERSION = "8.0"
+
+[start]
+cmd = "dotnet run --no-launch-profile --urls http://0.0.0.0:8080"
